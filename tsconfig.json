@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                    // or "ES2020"
+    "module": "NodeNext",               // Ensure this is set to "NodeNext"
+    "moduleResolution": "NodeNext",     // Ensure this is set to "NodeNext"
+    "outDir": "./dist",
+    "rootDir": "./",                    // Ensure this is correct for your file structure
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["server/**/*"]           // Adjust as per your file structure
+}
